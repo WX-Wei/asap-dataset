@@ -36,6 +36,9 @@ def clip_and_copy_audio(in_path, out_path, start=None, end=None, padding=0.5):
         sound will ever be shifted forward of its original time due to this value (so if
         padding > start, it is instead set to start).
     """
+    # if os.path.exists(out_path):
+    #     return
+    
     if np.isnan(start) and np.isnan(end):
         if in_path != out_path:
             copyfile(in_path, out_path)
