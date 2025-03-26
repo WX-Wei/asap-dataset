@@ -1,1 +1,4 @@
 *.wav
+*.pth
+*_chunks.json
+*.h5
