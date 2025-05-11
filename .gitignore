@@ -2,3 +2,7 @@
 *.pth
 *_chunks.json
 *.h5
+*.json
+*.score.json
+*.score.mid
+cache
